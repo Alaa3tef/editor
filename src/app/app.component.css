@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  max-width: 900px;
+  min-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.editor {
+  border-radius: 4px;
+}
+
+.ql-editor {
+  min-height: 300px; 
+  font-size: 14px;
+  margin-top: 20%;
+  line-height: 37.42
+}
+/* .ql-editor.html-mode {
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+} */
+/* .ql-container.ql-disabled {
+  background-color: #f9f9f9; 
+  cursor: not-allowed;
+}
+.ql-editor{
+  min-height: 300px;
+  font-size: 14px;
+} */
